@@ -1,44 +1,50 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 *{
+  font-family: "Poppins",sans-serif;
   margin: 0;
   padding: 0;
+  border: none;
   box-sizing: border-box;
   text-decoration: none;
   text-transform: capitalize;
+  letter-spacing: 1px;
 }
 .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   display:flex;
   justify-content: space-around;
+  align-items: center;
 }
 #logo a{
   font-size: 1.1rem;
-  font-weight: lighter;
+  font-weight:500;
   color: #000;
   margin-top: 0.5em;
   margin-right: 7rem;
 }
 .span {
-  font-weight: bold;
-  font-size: 2.5rem;
+  font-weight: 900;
+  font-size: 30px;
   color:rgb(255, 208, 0);
 }
-#menu-bars{
-    font-size: 1.5rem;
-    color:rgb(255, 208, 0);
-    cursor: pointer;
-    margin-top: 0.4em; 
-}
-#navbar nav ul {
-  display: flex;
-}
-li{
-  margin-left:2em ;
-  list-style: none;
-}
-.nav{
+.navbar a{
+  font-size: 15px;
+  font-weight: 400;
   color: #000;
-  font-size: 1.2rem;
-  font-weight: 300;
+  margin-top: 0.5em;
+  margin-left: 30px;
+}
+.navbar a:hover{
+   color:rgb(255, 208, 0);
+}
+#menu-bars{
+  font-size: 1.5rem;
+  color:rgb(255, 208, 0);
+  cursor: pointer;
+  margin-top: 0.4em; 
 }
 
 
