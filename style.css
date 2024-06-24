@@ -1,112 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
-*{
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    letter-spacing: 1px;
-}
+
 .header {
-   position: fixed;
-   top: 0;
-   left: 0;
-   right: 0;
-   width: 100%;
-   z-index: 10000;
-   padding: 20px 100px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   background-color:#333;
-}
-.logo span{
-    font-size: 35px;
-    font-weight: 600;
-    color:rgb(255, 208, 0);
-}
-.logo {
-    font-size: 16px;
-    font-weight: 500;
-    color: #fafafa;
-    margin-left: 10em;
-}
-#menu-bars {
-    font-size: 1.5rem;
-    color:rgb(255, 208, 0); 
-    cursor: pointer;
-    margin-right: 7em;
-}
-#navbar{
-    display: none;
-    margin-left: 25em;
-}
-#navbar a{
-    font-size: 0.9rem;
-    color: #fafafa;
-    margin-left: 12px;
-}
-#navbar a:hover{
-    color:rgb(255, 208, 0); 
+ 
 }
 .my-intro {
- justify-content: center;
- align-items: center;
- text-align: center;
- margin-top: 13em;
-}
-#img{
-  width: 7em;
-  height: 7em;
-  border-radius: 50px;
-}
-h2{
-  font-size: 30px;
-  color: #000;
-}
-p{
- font-size: 20px;
- font-weight: 500;
+
 }
 
 .about-me {
- display: flex;
- justify-content: center;
- align-items: center;
- margin-top: 5em;
+ 
 }
-#pic2{
-  width: 25%;
-  height: 25%;
-  margin-left: 3em;
-  margin-top: 5em;
-}
-#About{
-  flex-direction: column;
-  margin-top: 3em;
-  margin-left: 2em;
-}
-h3{
-  font-size: 23px;
-  margin-bottom: 1em;
-  margin-top: 2em;
-}
-#para1{
-  margin-bottom: 2em;
-  font-size: 1.3rem;
-}
-#para2{
-  font-size: 1rem;
-  font-weight:200;
-  margin-right: 2em;
-  margin-bottom: 3em;
-}
-#btn{
-  width: 15%;
-  height: 10%;
-  border-radius: 45px;
-}
-
 .my-services { 
 
 }
