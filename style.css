@@ -58,8 +58,8 @@ body{
     font-size: 17px;
     font-weight: 400;
     text-decoration: none;
-    color: #ffffff;  
-    margin-left: 2em;
+    color: #fafafa;  
+    margin-left: 3em;
 }
 a span{
     font-size: 35px;
@@ -69,12 +69,57 @@ a span{
 .navbar .nav{
     text-decoration: none;
     color:#ffffff;
-    margin-right: 2em;
+    margin-right: 4em;
     margin-top: 0.5em;
     font-size: 14.7px;
 }
 .navbar .nav:hover{
     color:rgb(252, 216, 17);
+}
+#sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgb(44, 44, 44);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#sidebar a{
+    width: 100%;
+    margin-top: 1.5em;
+    margin-left: 1em;
+}
+.menu-btn{
+    display: none;
+}
+@media (max-width:992px) {
+    .logo{
+        margin-left: 2em;
+    }
+    .navbar .nav{
+        margin-right: 2em;
+    }
+}
+@media (max-width:800px) {
+    #hideOnMobile{
+        display: none;
+    }   
+    .menu-btn{
+        display: block;
+    }
+}
+@media (max-width:400px) {
+    #sidebar{
+        width: 100%;
+    }
+    
 }
 
 .my-intro {
