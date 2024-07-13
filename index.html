@@ -21,13 +21,24 @@
 
     <header class="header">
         <a href="#"  class="logo"><span>P</span>ortfolio</a>
-       <nav class="navbar">
+       <nav class="navbar" id="sidebar">
+        <a href="#" onclick="hidesidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
         <a class="nav" href="#">Home</a>
         <a class="nav" href="#">About</a>
         <a class="nav" href="#">Resume</a>
         <a class="nav" href="#">Work</a>
         <a class="nav" href="#">Testimonial</a>
         <a class="nav" href="#">Contact</a>
+       </nav>
+
+       <nav class="navbar">
+        <a class="nav" id="hideOnMobile" href="#">Home</a>
+        <a class="nav" id="hideOnMobile" href="#">About</a>
+        <a class="nav" id="hideOnMobile" href="#">Resume</a>
+        <a class="nav" id="hideOnMobile" href="#">Work</a>
+        <a class="nav" id="hideOnMobile" href="#">Testimonial</a>
+        <a class="nav" id="hideOnMobile"href="#">Contact</a>
+        <a href="#"  class="menu-btn" onclick="showsidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
        </nav>
     </header>
     
