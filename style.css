@@ -100,6 +100,10 @@ a span{
     display: none;
 }
 
+.my-intro {
+    min-height: 100vh;
+}
+
 .my-intro  .intro{
    justify-content: center;
    align-items: center;
