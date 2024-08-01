@@ -100,12 +100,9 @@ a span{
 .menu-btn{
     display: none;
 }
-.my-intro{
-    min-height: 100vh;
-}
-
 .my-intro {
     min-height: 100vh;
+   
 }
 
 .my-intro  .intro{
@@ -114,7 +111,7 @@ a span{
    text-align: center;
    margin-top: 5em;
 }
- .intro .me{
+ .intro .responsive{
    margin-top: 10em;
    width: 9em;
    height: 9em;
