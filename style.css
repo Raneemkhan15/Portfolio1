@@ -7,13 +7,12 @@
     text-decoration: none;
     letter-spacing: 1px;
 }
-/* body{
+body{
     min-height: 100vh;
     background: url(./assets/assets/bg.jpg) no-repeat;
     background-size: cover;
-    background-position: center;
-   background: rgba(68, 62, 62, 0.438);
-} */
+    background-position: center;  
+}
 .header {
    position: fixed;
    top: 0;
@@ -25,7 +24,7 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background-color:#333;;
+   background-color:#333;
 }
 .logo span{
     font-size: 35px;
@@ -43,17 +42,19 @@
     color:rgb(255, 208, 0); 
     cursor: pointer;
     margin-right: 7em;
-
-  }
-/* .navbar a{
+}
+#navbar{
+    display: none;
+    margin-left: 25em;
+}
+#navbar a{
     font-size: 0.9rem;
     color: #fafafa;
     margin-left: 12px;
 }
-.navbar a:hover{
+#navbar a:hover{
     color:rgb(255, 208, 0); 
-} */
-
+}
 .my-intro {
 
 }
