@@ -12,6 +12,7 @@ setTimeout(function() {
     document.querySelector(".header") .style.display = 'flex';
 }, 3000);
 
+
 function showsidebar(){
     const sidebar = document.querySelector("#sidebar");
     sidebar.style.display="flex";

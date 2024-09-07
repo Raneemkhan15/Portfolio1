@@ -7,53 +7,13 @@
     text-decoration: none;
     letter-spacing: 1px;
 }
-body{
-    min-height: 100vh;
-    background: url(./assets/assets/bg.jpg) no-repeat;
+/* body{
+    min-v: 100vh;
+    background: url(./assets/assets/bg.jpg);
     background-size: cover;
-    background-position: center;  
-}
-.header {
-   position: fixed;
-   top: 0;
-   left: 0;
-   right: 0;
-   width: 100%;
-   z-index: 100;
-   padding: 20px 100px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   background-color:#333;
-}
-.logo span{
-    font-size: 35px;
-    font-weight: 600;
-    color:rgb(255, 208, 0);
-}
-.logo {
-    font-size: 16px;
-    font-weight: 500;
-    color: #fafafa;
-    margin-left: 10em;
-}
-#menu-bars {
-    font-size: 1.5rem;
-    color:rgb(255, 208, 0); 
-    cursor: pointer;
-    margin-right: 7em;
-}
-#navbar{
-    display: none;
-    margin-left: 25em;
-}
-#navbar a{
-    font-size: 0.9rem;
-    color: #fafafa;
-    margin-left: 12px;
-}
-#navbar a:hover{
-    color:rgb(255, 208, 0); 
+    background-position: center;
+} */
+ 
 .loader{
     background-color: #ecf0f1;
     width: 100%;
@@ -87,6 +47,7 @@ body{
         transform: scale(2);
     }
 }
+
 body{
     font-family:"Poppins ",sans-serif;
     margin: 0;
@@ -97,6 +58,7 @@ body{
     letter-spacing: 2px;
     background-color: aliceblue;    
 }
+
 .header {
     position: fixed;
     top: 0;
@@ -221,12 +183,13 @@ a span{
 .about-me {
     display: flex;
     justify-content: center;
-    margin-top: 5em;
+   padding-top: 7em;
 }
 .about-me .me{
     width:40em;
     height: 40em;
     margin-left: 10em;
+    margin-top: 2em;
 }
 .about-me .text{
     margin-right: 7em;
@@ -259,28 +222,22 @@ a span{
     color: #030303;
 }
 .my-services { 
-    background: #F6F6F6;
+    background-color: #ecf0f1;
 }
 .para{
-    text-align: center;
     font-size: 2.5rem;
-    font-weight:bolder;
+    font-weight: 800;
 }
-.single-service{
-    border-radius: 0.5rem;
-    background: #fff;
-    text-align: center;
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(27rem , 1fr));
+    gap: 1.5rem;
+}
+.box{
+    border-radius: 0.5em;
+    background-color: aqua;
+    align-items: center;
     padding: 2.5rem;
-}
-.single-service i{
-    font-size: 25px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    color:rgb(252, 216, 17);
-    margin-bottom: 10px;
-    line-height: 50px;
-    border: 1px solid #FFCB2F;
 }
 
 .experience {
@@ -321,5 +278,4 @@ a span{
     }
     
 }
-
 
