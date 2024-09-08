@@ -143,14 +143,14 @@ a span{
     font-weight: 500;
     margin-top: 0.7em;
 }
-.intro .box{
+.intro .arrow{
     position: absolute;
     top: 50%;
     left: 50%;
     margin-top: 18em;
     transform: translate(-50% ,-50%);
 }
-.box span{
+.arrow span{
     display: block;
     width: 20px;
     height: 20px;
@@ -160,11 +160,11 @@ a span{
     margin: -10px;
     animation: animate 2s infinite;
 }
-.box span:nth-child(2){
+.arrow span:nth-child(2){
     animation-delay: -0.2s;
     
 }
-.box span:nth-child(3){
+.arrow span:nth-child(3){
     animation-delay: -0.4s;
 }
 @keyframes animate{
@@ -183,7 +183,7 @@ a span{
 .about-me {
     display: flex;
     justify-content: center;
-   padding-top: 7em;
+   padding-top: 3em;
 }
 .about-me .me{
     width:40em;
@@ -222,23 +222,21 @@ a span{
     color: #030303;
 }
 .my-services { 
-    background-color: #ecf0f1;
+    background-color: #f3f3f3;
 }
 .para{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 800;
+    padding-top: 1em;
 }
-.box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit , minmax(27rem , 1fr));
-    gap: 1.5rem;
+.col{
+    text-align: center;
+    background: #fff;
+    padding: 60px 20px;
+    margin-bottom: 30px;
+    gap: 50px;
 }
-.box{
-    border-radius: 0.5em;
-    background-color: aqua;
-    align-items: center;
-    padding: 2.5rem;
-}
+
 
 .experience {
 
