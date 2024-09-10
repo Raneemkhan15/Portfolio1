@@ -6,14 +6,9 @@
     box-sizing: border-box;
     text-decoration: none;
     letter-spacing: 1px;
+   
 }
-/* body{
-    min-v: 100vh;
-    background: url(./assets/assets/bg.jpg);
-    background-size: cover;
-    background-position: center;
-} */
- 
+
 .loader{
     background-color: #ecf0f1;
     width: 100%;
@@ -47,17 +42,14 @@
         transform: scale(2);
     }
 }
+/* .top-area{
+    position: relative;
+    height: 100%;
+    background: url(./assets/assets/bg.jpg);
+    background-size: cover;
+    z-index: 1;
+} */
 
-body{
-    font-family:"Poppins ",sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    letter-spacing: 2px;
-    background-color: aliceblue;    
-}
 
 .header {
     position: fixed;
@@ -222,21 +214,88 @@ a span{
     color: #030303;
 }
 .my-services { 
-    background-color: #f3f3f3;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #F6F6F6;
+    overflow-x: hidden;
 }
 .para{
-    font-size: 2rem;
-    font-weight: 800;
+    font-size: 35px;
+    font-weight: 500;
     padding-top: 1em;
 }
-.col{
-    text-align: center;
-    background: #fff;
-    padding: 60px 20px;
-    margin-bottom: 30px;
-    gap: 50px;
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(20rem ,1fr));
+    gap: 1.5rem;
+    margin-top: 4em;
 }
-
+.box{
+    border-radius: 0.5em;
+    background: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+.box i{
+    width: 70px;
+    height: 70px;
+    line-height: 60px;
+    border-radius: 50%;
+    font-size: 28px;
+    color: #FFCB2F;
+    border: 1px solid #FFCB2F;
+}
+.box i:hover{
+    background: #FFCB2F;
+    color: #fff;
+    border: 1px solid #FFCB2F;
+}
+.box h5{
+    font-size: 18px;
+    padding: 0.5rem 0;
+}
+.box p{
+    font-size: 1em;
+    font-weight: 300;
+}
+.project{
+    padding: 160px ;
+    position: relative;
+    background: url(./assets/assets/bg.jpg);
+    background-size: cover;
+    z-index: 1;
+    background-attachment: fixed;
+    margin-top: 8em;
+}
+.project::after{
+    position: absolute;
+    background: rgba(0, 0, 0, .8);
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+}
+.row{
+    
+}
+.col-md-4 {
+    text-align: center;
+  padding: 3em;
+}
+.col-md-4 h2{
+    font-size: 40px;
+    font-weight: 900;
+    color: #FFCB2F;
+}
+.col-md-4 h3{
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}
 
 .experience {
 
