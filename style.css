@@ -217,7 +217,7 @@ a span{
     color: #030303;
 }
 .my-services { 
-    background: #F6F6F6;
+    background:#F6F6F6;
     overflow-x: hidden;
 }
 .para{
@@ -225,20 +225,18 @@ a span{
     font-weight: 800;
     text-align: center;
 }
-.box-con{
+.container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-    margin-left: 5em;
-    margin-top: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 2fr));
+    gap: 1rem;
+    margin-top: 3em;
 }
 .box{
-    border-radius: 0.5em;
+    border-radius: 0.2em;
     background: #fff;
     text-align: center;
-    padding: 60px 20px;
+    padding: 40px 10px 20px 30px;
     margin-bottom: 30px;
-    width: 25em;
-    height: 20em;
 }
 .box i{
     font-size: 30px;
@@ -286,7 +284,7 @@ a span{
 .col-md-2{
     text-align: center;
     padding: 6em;
-    margin-left: 6em;
+    margin-left: 5em;
 }
 .col-md-2 h5{
     font-size: 40px;
@@ -300,12 +298,80 @@ a span{
 }
 
 .experience {
-    background: #F6F6F6;
+    background:#F6F6F6;
+    overflow-x: hidden;
+}
+.box-container{
+    padding-left: 13rem;
 }
 
+.single{
+    background-color: #fff;
+    padding: 40px 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.single h2{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color:#333;
+    margin-top: 0;
+}
+.single h3{
+    margin-top: 0;
+    font-size: 13px;
+    font-weight: 300;
+    color:#333;
+    margin-bottom: 15px;
+}
+.single span {
+    float: right;
+    margin-top: -30px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    padding: 5px 10px;
+    background-color: #FFCB2F;
+}
+.single p{
+    font-size:0.9rem;
+}
 
 .recent-work {
-
+   background-color: #fff;
+   overflow-x: hidden;
+}
+.work{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.filter{
+   padding-top: 8px;
+   padding-bottom: 4px;
+   margin:0 8px;
+   font-size: 14px;
+   font-weight: 300;
+   color: #000;
+   border: none;
+   cursor: pointer;
+   font-size: 12px;
+   border: 1px solid #FFCB2F;
+   border-radius: 30px;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+.filter:hover{
+    color: #fff;
+    border: 1px solid #FFCB2F;
+    background-color: #FFCB2F;
+}
+.filter.active{
+    border: none;
+    color: #fff;
+    border: 1px solid #FFCB2F;
+    background: #FFCB2F;
 }
 
 .contact-form {
