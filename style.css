@@ -135,9 +135,11 @@ a span{
     margin-top: 0.7em;
 }
 .intro p{
-    font-size:23px;
+    font-size:20px;
     font-weight: 400;
     margin-top: 0.7em;
+    margin-left: 15em;
+    margin-right: 15em;
 }
 .intro .arrow{
     position: absolute;
@@ -148,8 +150,8 @@ a span{
 }
 .arrow span{
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
     transform: rotate(45deg);
@@ -182,12 +184,12 @@ a span{
     padding-top: 4em;
 }
 .about-me .me{ 
-    margin-left: 7em;
+    margin-left: 13.5em;
     margin-top: 2em;
 }
 .about-me .text{
-    margin-right: 9.9em;
-    margin-left: 5em;
+    margin-right: 13em;
+    margin-left: 2em;
     margin-top: 7em;
 }
 .about-me .text h2{
@@ -195,14 +197,14 @@ a span{
     font-weight: 700;
 }
 .about-me .text h3{
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 23px;
+    font-weight: 500;
     margin-top: 0.7em;
 }
 .about-me .text p{
     margin-top: 1.5em;
-    font-size: 0.9rem;
-    font-weight: 300;
+    font-size: 14px;
+    font-weight: 400;
 }
 .about-me .text .btn{
    width: 12em;
@@ -361,17 +363,12 @@ a span{
    border-radius: 30px;
    padding-left: 15px;
    padding-right: 15px;
+   text-decoration: none;
 }
 .filter:hover{
     color: #fff;
     border: 1px solid #FFCB2F;
     background-color: #FFCB2F;
-}
-.filter.active{
-    border: none;
-    color: #fff;
-    border: 1px solid #FFCB2F;
-    background: #FFCB2F;
 }
 
 .contact-form {
