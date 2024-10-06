@@ -377,21 +377,27 @@ a span{
     background: #FFCB2F;
 }
 .image{
-    padding-left: 15em;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .img{
-    width: 23rem;
-    padding:0.5em;
+    width: 29%;
+    margin: 1em;
 }
-.testimonial{
-    padding: 250px ;
+.testimonial {
+    padding: 100px 0px;
     position: relative;
     background: url(./assets/assets/testi.jpeg);
+    background-position: center center;
     background-size: cover;
+    background-attachment: fixed;
     z-index: 1;
-    background-attachment: fixed; 
 }
-.testimonial::after {
+
+.testimonial:after {
     position: absolute;
     background: rgba(0, 0, 0, .8);
     left: 0;
@@ -401,7 +407,46 @@ a span{
     content: "";
     z-index: -1;
 }
+.para{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+.slider-container
+{
+  color:#000;
+	margin: 0 auto;
+	padding: 0;
+  text-align:center;
+}
 
+.slider-container i{
+    font-size: 18px;
+    margin-bottom:2px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #FFCB2F;
+    background-color:#fff ;
+    margin-top: 2em;
+}
+.slider-container p{
+    color: #fff;
+    padding: 30px 380px;
+}
+.slider-container h2{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+.slider-container h3{
+    font-size: 12px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
 
 .contact-form {
 
