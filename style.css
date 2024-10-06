@@ -377,14 +377,14 @@ a span{
     background: #FFCB2F;
 }
 .image{
-   margin-left: 14em;
+    padding-left: 15em;
 }
 .img{
-    width: 22rem;
-    margin: 1em;
+    width: 23rem;
+    padding:0.5em;
 }
 .testimonial{
-    padding: 100px 0px;
+    padding: 250px ;
     position: relative;
     background: url(./assets/assets/testi.jpeg);
     background-size: cover;
@@ -401,6 +401,7 @@ a span{
     content: "";
     z-index: -1;
 }
+
 
 .contact-form {
 
