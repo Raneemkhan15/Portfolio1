@@ -377,10 +377,14 @@ a span{
     background: #FFCB2F;
 }
 .image{
-   margin-left: 14em;
+   margin: 0 auto;
+   width: 80%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
 }
 .img{
-    width: 22rem;
+    width: 29%;
     margin: 1em;
 }
 .testimonial{
