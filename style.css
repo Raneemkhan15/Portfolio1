@@ -412,7 +412,7 @@ a span{
     font-weight: 800;
     text-align: center;
 }
-.slider-container
+.slides
 {
   color:#000;
 	margin: 0 auto;
@@ -420,7 +420,7 @@ a span{
   text-align:center;
 }
 
-.slider-container i{
+.slide i{
     font-size: 18px;
     margin-bottom:2px;
     height: 40px;
@@ -431,16 +431,16 @@ a span{
     background-color:#fff ;
     margin-top: 2em;
 }
-.slider-container p{
+.slide p{
     color: #fff;
     padding: 30px 380px;
 }
-.slider-container h2{
+.slide h2{
     font-size: 16px;
     font-weight: 700;
     color: #fff;
 }
-.slider-container h3{
+.slide h3{
     font-size: 12px;
     font-weight: 300;
     color: #fff;
