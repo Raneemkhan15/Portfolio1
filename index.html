@@ -2,93 +2,104 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
-                 <!-- bootstrap Link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-                 <!-- font-awesome -->
-    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-                 <!-- jquery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-                 <!-- waypoints -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-                 <!-- Counter-Up -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-    <title>PORTFOLIO</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+  <!-- bootstrap Link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- waypoints -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <!-- Counter-Up -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+  <title>PORTFOLIO</title>
 </head>
 
 <body>
-    <!-- Loader section -->
-    <div class="loader">
-        <span class="loader_element"></span>
-        <span class="loader_element"></span>
-        <span class="loader_element"></span>
+  <!-- Loader section -->
+  <div class="loader">
+    <span class="loader_element"></span>
+    <span class="loader_element"></span>
+    <span class="loader_element"></span>
+  </div>
+
+  <!-- Header section -->
+  <header class="top-area">
+    <div class="header">
+      <a href="#" class="logo"><span>P</span>ortfolio</a>
+      <nav class="navbar" id="sidebar">
+        <a href="#" onclick="hidesidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+            viewBox="0 -960 960 960" width="24px" fill="#FFFFFF">
+            <path
+              d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+          </svg></a>
+        <a class="nav" href="#home">Home</a>
+        <a class="nav" href="#about">About</a>
+        <a class="nav" href="#resume">Resume</a>
+        <a class="nav" href="#work">Work</a>
+        <a class="nav" href="#retimonial">Testimonial</a>
+        <a class="nav" href="#contact">Contact</a>
+      </nav>
+
+      <nav class="navbar">
+        <a class="nav" id="hideOnMobile" href="#home">Home</a>
+        <a class="nav" id="hideOnMobile" href="#about">About</a>
+        <a class="nav" id="hideOnMobile" href="#resume">Resume</a>
+        <a class="nav" id="hideOnMobile" href="#work">Work</a>
+        <a class="nav" id="hideOnMobile" href="#testimonial">Testimonial</a>
+        <a class="nav" id="hideOnMobile" href="#contact">Contact</a>
+        <a href="#" class="menu-btn" onclick="showsidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+            viewBox="0 -960 960 960" width="24px" fill="#FFFFFF">
+            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+          </svg></a>
+      </nav>
     </div>
+  </header>
 
-    <!-- Header section -->
-    <header class="top-area">
-       <div class="header">
-        <a href="#"  class="logo"><span>P</span>ortfolio</a>
-        <nav class="navbar" id="sidebar">
-         <a href="#" onclick="hidesidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
-         <a class="nav" href="#home">Home</a>
-         <a class="nav" href="#about">About</a>
-         <a class="nav" href="#resume">Resume</a>
-         <a class="nav" href="#work">Work</a>
-         <a class="nav" href="#retimonial">Testimonial</a>
-         <a class="nav" href="#contact">Contact</a>
-        </nav>
- 
-        <nav class="navbar">
-         <a class="nav" id="hideOnMobile" href="#home">Home</a>
-         <a class="nav" id="hideOnMobile" href="#about">About</a>
-         <a class="nav" id="hideOnMobile" href="#resume">Resume</a>
-         <a class="nav" id="hideOnMobile" href="#work">Work</a>
-         <a class="nav" id="hideOnMobile" href="#testimonial">Testimonial</a>
-         <a class="nav" id="hideOnMobile" href="#contact">Contact</a>
-         <a href="#"  class="menu-btn" onclick="showsidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
-        </nav>
-       </div>
-    </header>
-    
-    <!-- Intro section -->
-    <section class="my-intro" id="home">
-       <div class="intro">
-        <img src="./assets/assets/me.jpg" alt=""  class="responsive">
-        <h2>MS. RANEEM KHAN</h2>
-        <p>Hello, I am Creative web Designer & Developer Based in Dhaka, Bangladesh, I have been more than 4+ years in Design & Development Industry.</p>
+  <!-- Intro section -->
+  <section class="my-intro" id="home">
+    <div class="intro">
+      <img src="./assets/assets/me.jpg" alt="" class="responsive">
+      <h2>MS. RANEEM KHAN</h2>
+      <p>Hello, I am Creative web Designer & Developer Based in Dhaka, Bangladesh, I have been more than 4+ years in
+        Design & Development Industry.</p>
 
-        <div class="arrow">
-            <a href="#about">
-                <span></span>
-                <span></span>
-                <span></span>
-            </a>
-        </div>
-       </div> 
-    </section>
+      <div class="arrow">
+        <a href="#about">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+    </div>
+  </section>
 
-    <!-- About section -->
-    <section class="about-me" id="about">
+  <!-- About section -->
+  <section class="about-me" id="about">
     <div class="me">
-        <img  src="./assets/assets/me.jpg" alt="">
+      <img src="./assets/assets/me.jpg" alt="">
     </div>
     <div class="text">
-        <h2>A BREIF ABOUT ME</h2>
-        <h3>Creative Designers & Wordpress Specialist</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining.</p>
-        <a class="btn btn-warning" href="#">Download Resume</a>
+      <h2>A BREIF ABOUT ME</h2>
+      <h3>Creative Designers & Wordpress Specialist</h3>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining.</p>
+      <a class="btn btn-warning" href="#">Download Resume</a>
     </div>
-    </section>
+  </section>
 
-    <!-- Service section -->
-    <section class="my-services">
-     <p class="para text-center">MY SERVICE ARE.</p>
-     <div class="con">
-     <div class="container">
+  <!-- Service section -->
+  <section class="my-services">
+    <p class="para text-center">MY SERVICE ARE.</p>
+    <div class="con">
+      <div class="container">
         <div class="box">
           <i class="fa fa-camera"></i>
           <h5>PHOTOGRAPHY & PORTRAIT</h5>
@@ -117,7 +128,7 @@
           <i class="fas fa-line-chart"></i>
           <h5>INTERNET MARKETING</h5>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
           </p>
         </div>
 
@@ -133,138 +144,191 @@
           <i class="fa-brands fa-youtube"></i>
           <h5>VIDEO MARKETING</h5>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
           </p>
         </div>
       </div>
     </div>
-    </section>
+  </section>
 
-    <!-- Project section -->
-    <section class="project">
-      <div class="con">
-        <div class="row">
-          <div class="col-md-2">
-            <h5 class="number">352</h5>
-            <h3>COMPLETE PROJECT</h3>
-          </div>
-          <div class="col-md-2">
-            <h5 class="number">121</h5>
-            <h3>HAPPY CILENTS</h3>
-          </div>
-          <div class="col-md-2">
-            <h5 class="number">560</h5>
-            <h3>CUP OF COFFEE</h3>
-          </div>
-          <div class="col-md-2">
-            <h5 class="number">9211</h5>
-            <h3>LINE OF CODES</h3>
-          </div>
+  <!-- Project section -->
+  <section class="project">
+    <div class="con">
+      <div class="row">
+        <div class="col-md-2">
+          <h5 class="number">352</h5>
+          <h3>COMPLETE PROJECT</h3>
+        </div>
+        <div class="col-md-2">
+          <h5 class="number">121</h5>
+          <h3>HAPPY CILENTS</h3>
+        </div>
+        <div class="col-md-2">
+          <h5 class="number">560</h5>
+          <h3>CUP OF COFFEE</h3>
+        </div>
+        <div class="col-md-2">
+          <h5 class="number">9211</h5>
+          <h3>LINE OF CODES</h3>
         </div>
       </div>
-    </section>
-    
-    <!-- Resume section -->
-    <section class="experience" id="resume">
+    </div>
+  </section>
+
+  <!-- Resume section -->
+  <section class="experience" id="resume">
     <p class="para text-center">EXPERIENCE.</p>
     <div class="box-container">
       <div class="row">
         <div class="col-md-5">
           <div class="single">
-              <h2>COMPUTER SCIENCE</h2>
-              <span>2001-2005</span>
-              <h3>Google University ,Melbourne</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <h2>COMPUTER SCIENCE</h2>
+            <span>2001-2005</span>
+            <h3>Google University ,Melbourne</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s</p>
           </div>
           <div class="single">
             <h2>COMPUTER SCIENCE</h2>
             <span>2001-2005</span>
             <h3>Google University ,Melbourne</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-        </div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s</p>
+          </div>
         </div>
 
         <div class="col-md-5">
           <div class="single">
-              <h2>GRAPHICS DESIGNER</h2>
-              <span>2001-2005</span>
-              <h3>Google University ,Melbourne</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <h2>GRAPHICS DESIGNER</h2>
+            <span>2001-2005</span>
+            <h3>Google University ,Melbourne</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s</p>
           </div>
           <div class="single">
             <h2>WEB DEVELOPER</h2>
             <span>2001-2005</span>
             <h3>Google University ,Melbourne</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-        </div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s</p>
+          </div>
         </div>
       </div>
     </div>
-    </section>
-    
-    <!-- Recent-work section -->
-    <section class="recent-work" id="work">
-      <p class="para text-center">MY RECENT WORK.</p>
-      <div class="row">
-        <ul class="work">
-          <li  class="filter active"  data-filter="all">ALL</li>
-          <li  class="filter"  data-filter="webdesign">WEB DESIGN</li>
-          <li  class="filter"  data-filter="Development">DEVELOPMENT</li>
-          <li  class="filter"  data-filter="photography">PHOTOGRAPHY</li>
-        </ul>
-      </div>
+  </section>
 
-      <div class="image" >
-        <img class="img " src="./assets/assets/1.jpg" alt="" >
-        <img class="img" src="./assets/assets/2.jpg" alt="">
-        <img class="img " src="./assets/assets/3.jpg" alt="" >
-        <img class="img" src="./assets/assets/4.jpg" alt="">
-        <img class="img" src="./assets/assets/5.jpg" alt="">
-        <img class="img" src="./assets/assets/6.jpg" alt="">
-      </div>
-    </section>
+  <!-- Recent-work section -->
+  <section class="recent-work" id="work">
+    <p class="para text-center">MY RECENT WORK.</p>
+    <div class="row">
+      <ul class="work">
+        <button class="filter active" data-category="all">ALL</button>
+        <button class="filter" data-category="webdesign">WEB DESIGN</button>
+        <button class="filter" data-category="Development">DEVELOPMENT</button>
+        <button class="filter" data-category="photography">PHOTOGRAPHY</button>
+      </ul>
+    </div>
 
-    <!-- testimonial section -->
-     <section class="testimonial" id="testimonial">
-     <p class="para text-center" style="color: #fff;">WHAT CILENTS SAYING!</p>
 
-        <div class="slider">
-          <div class="slides">
-            <div class="slide">
-              <i class="fa-solid fa-comments"></i>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-              <h2>JESSICA MALCOVA</h2>
-              <h3>CEO facebook</h3>
-            </div>
-
-            <div class="slide">
-                <i class="fa-solid fa-comments"></i>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                <h2>JESSICA MALCOVA</h2>
-                <h3>CEO facebook</h3>
-            </div>
-
-            <div class="slide">
-                  <i class="fa-solid fa-comments"></i>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                  <h2>JESSICA MALCOVA</h2>
-                  <h3>CEO facebook</h3>
-            </div>
-          </div>
+    <div id="product-list">
+      <div class="item" data-category="webdesign">
+        <img src="./assets/assets/1.jpg" alt="webdesign">
+        <div class="captions">
+          <h3>WEB DESIGN PROJECT</h3>
+          <p>CLIENT:RANEEM KHAN</p>
         </div>
-    </section>
+      </div>
 
-    <!-- Contact section -->
-    <section class="contact-form">
-        <!-- contact form here -->
-    </section>
-    
-    <!-- Footer section -->
-    <footer class="footer">
-        <!-- footer code here -->
-    </footer>
+      <div class="item" data-category="Development">
+        <img src="./assets/assets/2.jpg" alt="webdesign">
+        <div class="captions">
+          <h3>WEB DESIGN PROJECT</h3>
+          <p>CLIENT:RANEEM KHAN</p>
+        </div>
+      </div>
 
-   
+      <div class="item" data-category="webdesign">
+        <img src="./assets/assets/3.jpg" alt="webdesign">
+        <div class="captions">
+          <h3>WEB DESIGN PROJECT</h3>
+          <p>CLIENT:RANEEM KHAN</p>
+        </div>
+      </div>
+
+      <div class="item" data-category="photography">
+        <img src="./assets/assets/4.jpg" alt="webdesign">
+        <div class="captions">
+          <h3>WEB DESIGN PROJECT</h3>
+          <p>CLIENT:RANEEM KHAN</p>
+        </div>
+      </div>
+
+      <div class="item" data-category="Development">
+        <img src="./assets/assets/5.jpg" alt="webdesign">
+        <div class="captions">
+          <h3>WEB DESIGN PROJECT</h3>
+          <p>CLIENT:RANEEM KHAN</p>
+        </div>
+      </div>
+
+      <div class="item" data-category="photography">
+        <img src="./assets/assets/6.jpg" alt="webdesign">
+        <div class="captions">
+          <h3>WEB DESIGN PROJECT</h3>
+          <p>CLIENT:RANEEM KHAN</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- testimonial section -->
+  <section class="testimonial" id="testimonial">
+    <p class="para text-center" style="color: #fff;">WHAT CILENTS SAYING!</p>
+
+    <div class="slider">
+      <div class="slides">
+        <div class="slide">
+          <i class="fa-solid fa-comments"></i>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <h2>JESSICA MALCOVA</h2>
+          <h3>CEO facebook</h3>
+        </div>
+
+        <div class="slide">
+          <i class="fa-solid fa-comments"></i>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <h2>JESSICA MALCOVA</h2>
+          <h3>CEO facebook</h3>
+        </div>
+
+        <div class="slide">
+          <i class="fa-solid fa-comments"></i>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <h2>JESSICA MALCOVA</h2>
+          <h3>CEO facebook</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section class="contact-form">
+    <!-- contact form here -->
+  </section>
+
+  <!-- Footer section -->
+  <footer class="footer">
+    <!-- footer code here -->
+  </footer>
+
+
 </body>
 
 </html>

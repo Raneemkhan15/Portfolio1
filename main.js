@@ -26,3 +26,16 @@ function hidesidebar(){
 
 //CountUp
 $(".number").counterUp({time:3000});
+
+$(document).ready(function() {
+  $('button').on('click', function() {
+      const category = $(this).data('category');
+
+      if (category === 'all') {
+          $('.item').show();
+      } else {
+          $('.item').hide();
+          $('.item[data-category="' + category + '"]').show();
+      }
+  });
+});
