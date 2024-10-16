@@ -61,7 +61,11 @@ section {
     height: 100vh;
     background-image: url(assets/assets/bg.jpg);
     background-repeat: no-repeat;
-    opacity: 0.5;
+    /* opacity: 0.5; */
+    /* background-image: linear-gradient(red, yellow); */
+    background-image: linear-gradient(rgba(0, 0, 5, 0.5), rgba(0, 0, 0, 0.726)),
+                  url("assets/assets/bg.jpg");
+
     background-size: cover;
     /* z-index: 1; */
 }
@@ -154,21 +158,23 @@ a span {
     font-size: 25.5px;
     font-weight: 800;
     margin-top: 0.7em;
+    color: #f1efef;
 }
 
 .intro p {
     font-size: 25px;
     font-weight: 300;
+    color: #f1efef;
     margin-top: 0.7em;
-    margin-left: 15em;
-    margin-right: 15em;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .intro .arrow {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: 18em;
+    margin-top: 22em;
     transform: translate(-50%, -50%);
 }
 
@@ -176,8 +182,8 @@ a span {
     display: block;
     width: 15px;
     height: 15px;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
+    border-bottom: 1px solid   #FFCB2F;;
+    border-right: 1px solid   #FFCB2F;;
     transform: rotate(45deg);
     margin: -10px;
     animation: animate 2s infinite;
@@ -357,7 +363,7 @@ a span {
 }
 
 .box-container {
-    padding-left: 13rem;
+    padding-left: 13%;
 }
 
 .single {
@@ -387,7 +393,7 @@ a span {
     float: right;
     margin-top: -30px;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 500;
     color: #fff;
     padding: 5px 10px;
     background-color: #FFCB2F;
@@ -485,14 +491,14 @@ a span {
     text-align: center;
 }
 
-.slides {
+.carousel-inner {
     color: #000;
     margin: 0 auto;
     padding: 0;
     text-align: center;
 }
 
-.slide i {
+.carousel-item i {
     font-size: 18px;
     margin-bottom: 2px;
     height: 40px;
@@ -504,18 +510,20 @@ a span {
     margin-top: 2em;
 }
 
-.slide p {
+.carousel-item p {
     color: #fff;
-    padding: 30px 380px;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* padding: 30px 380px; */
 }
 
-.slide h2 {
+.carousel-item h2 {
     font-size: 16px;
     font-weight: 700;
     color: #fff;
 }
 
-.slide h3 {
+.carousel-item h3 {
     font-size: 12px;
     font-weight: 300;
     color: #fff;
@@ -545,6 +553,32 @@ a span {
     .menu-btn {
         display: block;
     }
+
+    .about-me {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 7em;
+    }
+    .about-me .me {
+        margin-left: 15%;
+        margin-top: 2em;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, auto);
+        gap: 1rem;
+        margin-top: 3em;
+    }
+
+    .col-md-2 {
+        text-align: center;
+        padding: 6em;
+        margin-left: 15em;
+    }
+    
 }
 
 @media (max-width:400px) {
