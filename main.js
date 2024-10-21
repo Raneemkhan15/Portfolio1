@@ -11,7 +11,7 @@ function myFunction() {
 setTimeout(function () {
   document.querySelector(".loader").style.display = 'none';
   document.querySelector(".header").style.display = 'flex';
-}, 3000);
+}, 1000);
 
 //Navbar
 function showsidebar() {

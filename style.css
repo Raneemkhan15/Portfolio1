@@ -57,19 +57,13 @@ section {
 }
 
 .my-intro {
-    /* position: relative; */
     height: 100vh;
     background-image: url(assets/assets/bg.jpg);
     background-repeat: no-repeat;
-    /* opacity: 0.5; */
-    /* background-image: linear-gradient(red, yellow); */
     background-image: linear-gradient(rgba(0, 0, 5, 0.5), rgba(0, 0, 0, 0.726)),
                   url("assets/assets/bg.jpg");
-
     background-size: cover;
-    /* z-index: 1; */
 }
-
 
 .header {
     position: fixed;
@@ -102,7 +96,7 @@ a span {
 .navbar .nav {
     text-decoration: none;
     color: #ffffff;
-    margin-right: 4em;
+    margin-right: 2em;
     margin-top: 0.5em;
     font-size: 14.7px;
 }
@@ -148,7 +142,7 @@ a span {
 }
 
 .intro .responsive {
-    margin-top: 15em;
+    margin-top: 10%;
     width: 9em;
     height: 9em;
     border-radius: 50%;
@@ -162,17 +156,17 @@ a span {
 }
 
 .intro p {
-    font-size: 25px;
-    font-weight: 300;
+    font-size: 1.5rem;
+    font-weight: 200;
     color: #f1efef;
-    margin-top: 0.7em;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-top: 0.7%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .intro .arrow {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     margin-top: 22em;
     transform: translate(-50%, -50%);
@@ -217,7 +211,7 @@ a span {
 .about-me {
     display: flex;
     justify-content: center;
-    padding-top: 7em;
+    padding-top: 5em;
 }
 
 .about-me .me {
@@ -265,7 +259,6 @@ a span {
 .my-services {
     background: #F6F6F6;
     overflow-x: hidden;
-    margin-top: 5em;
 }
 
 .para {
@@ -341,7 +334,7 @@ a span {
 .col-md-2 {
     text-align: center;
     padding: 6em;
-    margin-left: 5em;
+    margin-left: 7%;
 }
 
 .col-md-2 h5 {
@@ -359,18 +352,17 @@ a span {
 .experience {
     background: #F6F6F6;
     overflow-x: hidden;
-    margin-top: 8em;
 }
 
 .box-container {
-    padding-left: 13%;
+    padding-left: 15%;
 }
 
 .single {
     background-color: #fff;
     padding: 40px 30px;
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 1%;
 }
 
 .single h2 {
@@ -393,7 +385,7 @@ a span {
     float: right;
     margin-top: -30px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
     padding: 5px 10px;
     background-color: #FFCB2F;
@@ -430,6 +422,7 @@ a span {
     padding-right: 15px;
     text-decoration: none;
     background-color: #fff;
+    margin-top: 2%;
 }
 
 .filter:hover {
@@ -438,26 +431,18 @@ a span {
     background-color: #FFCB2F;
 }
 
-.filter.active {
-    border: none;
-    color: #fff;
-    border: 1px solid #FFCB2F;
-    background: #FFCB2F;
-}
-
 #product-list {
     margin-left: 15%;
     margin-right: 15%;
+    margin-top: 1%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
 }
 
 .item img {
-    height: 90%;
-    width: 90%;
-    /* width: 29%;
-    margin: 1em; */
+    height: 95%;
+    width: 95%;
 }
 
 .captions {
@@ -512,9 +497,9 @@ a span {
 
 .carousel-item p {
     color: #fff;
-    margin-left: 20%;
-    margin-right: 20%;
-    /* padding: 30px 380px; */
+    margin-left: 23%;
+    margin-right: 23%;
+    margin-top: 1%;
 }
 
 .carousel-item h2 {
@@ -531,17 +516,33 @@ a span {
     margin-top: 0;
 }
 
-.contact-form {}
+.contact-form {
+  
+}
 
 .footer {}
 
+@media (max-width:913px) {
+    .logo {
+        margin-left: 1%;
+    }
+
+    .navbar .nav {
+        margin-right: 5%;
+       
+       
+    }
+}
+
 @media (max-width:992px) {
     .logo {
-        margin-left: 2em;
+        margin-left: 1em;
     }
 
     .navbar .nav {
         margin-right: 2em;
+        margin-left: 1em;
+       
     }
 }
 
