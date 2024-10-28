@@ -69,10 +69,10 @@ $(document).ready(function () {
     const category = $(this).data('category');
 
     if (category === 'all') {
-      $('.item').show();
+      $('.image').show();
     } else {
-      $('.item').hide();
-      $('.item[data-category="' + category + '"]').show();
+      $('.image').hide();
+      $('.image[data-category="' + category + '"]').show();
     }
   });
 });
