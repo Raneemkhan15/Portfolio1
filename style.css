@@ -449,7 +449,6 @@ a span {
     display: block;
     width: 90%;
     height: 95%;
-   
 }
 
 .image__overlay {
@@ -490,16 +489,10 @@ a span {
     transform: translateY(0);
 }
 
-/* .image__title {
-    font-size: 2em;
-    font-weight: bold;
-} */
-
 .image__description {
-    font-size: 1.25em;
+    font-size: 1.2em;
     /* margin-top: 0.25em; */
 }
-
 
 .testimonial {
     padding: 100px 0px;
@@ -569,8 +562,49 @@ a span {
 }
 
 .contact-form {
-  
+    overflow-x: hidden;
 }
+.detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.single1{
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+.single1 i{
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #fff;
+    border: 1px solid #FFCB2F;
+    background-color: #FFCB2F;
+    text-align: center;
+}
+
+.item h2{
+    font-size: 12px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+.contact-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-me form{
+    width: 700px;
+    height: 350px;
+   
+}
+
 
 .footer {}
 
