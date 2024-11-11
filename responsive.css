@@ -1,0 +1,147 @@
+
+@media (max-width: 1048px) {
+    .logo {
+        margin-left: 1em;
+    }
+
+    .navbar .nav {
+        margin-right: 2em;
+        margin-left: 1em;
+        font-size: 14px;
+    }
+    .my-intro .intro {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 15em 3px;
+    }
+    .intro .responsive {
+        width: 7%;
+        height: 7%;
+        border-radius: 50%;
+    }
+    
+    .intro h2 {
+        font-size: 25.5px;
+        font-weight: 800;
+        color: #f1efef;
+    }
+    
+    .intro p {
+        font-size: 1.3em;
+        font-weight: 200;
+        color: #f1efef;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .about-text {
+        padding-top:0px;
+    }
+    .about-text h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:992px) {
+    .logo {
+        margin-left: 1em;
+    }
+
+    .navbar .nav {
+        margin-right: 2em;
+        margin-left: 1em;
+       
+    }
+    .my-intro .intro {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 15em 3px;
+    }
+    .intro .responsive {
+        width: 7%;
+        height: 7%;
+        border-radius: 50%;
+    }
+    
+    .intro h2 {
+        font-size: 25.5px;
+        font-weight: 800;
+        color: #f1efef;
+    }
+    
+    .intro p {
+        font-size: 1.3em;
+        font-weight: 200;
+        color: #f1efef;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .about-text {
+        padding-top: 80px;
+        margin-left: 2%;
+    }
+}
+
+@media (max-width:877px) {
+    #hideOnMobile {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .my-intro .intro {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 15em 3px;
+    }
+    .intro .responsive {
+        width: 7%;
+        height: 7%;
+        border-radius: 50%;
+    }
+    
+    .intro h2 {
+        font-size: 25.5px;
+        font-weight: 800;
+        color: #f1efef;
+    }
+    
+    .intro p {
+        font-size: 1.3em;
+        font-weight: 200;
+        color: #f1efef;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .about-text {
+        padding-top: 80px;
+        margin-left: 2%;
+    }
+  
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, auto);
+        gap: 1rem;
+        margin-top: 3em;
+    }
+
+    .col-md-2 {
+        text-align: center;
+        padding: 6em;
+        margin-left: 15em;
+    }
+
+}
+
+@media (max-width:400px) {
+    #sidebar {
+        width: 100%;
+    }
+
+}

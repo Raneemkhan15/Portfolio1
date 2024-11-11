@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
 
   <!-- bootstrap Link -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -86,15 +87,14 @@
     <div class="me">
       <img src="./assets/assets/me.jpg" alt="">
     </div>
-    <div class="text">
-      <h2>A BREIF ABOUT ME</h2>
-      <h3>Creative Designers & Wordpress Specialist</h3>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-        remaining.</p>
-      <a class="btn btn-warning" href="#">Download Resume</a>
-    </div>
+    <div class="col-md-7 col-sm-8">
+      <div class="about-text">
+          <h2 >A BREIF ABOUT ME.</h2>
+          <h3 >Creative Designers & Wordpresss Specialist</h3>
+          <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining </p>
+          <a  href="">Download resume</a>
+      </div>
+  </div>
   </section>
 
   <!-- Service section -->
@@ -357,24 +357,50 @@
               <p>Nion@hotmail.com</p>
              </div>
             </div>
-
           </div>
-
-          <div class="contact-me">
-            <div class="contact">
-              <form>
-                <input type="text"  id="firstname" placeholder="Name">
-                <input type="email"  id="email" placeholder="Email">              
-                <textarea  placeholder="Your Message"></textarea>             
-              <button type="submit" id="button" class="btn btn-primary">SUBMIT NOW </button>
-            </form>
-            </div>
-          </div>
+          <div class="row">
+            <div class="col-md-12">
+                <div class="contact-me">
+                    <form id="contact-me" method="post" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <input type="text" name="name" class="form-control" id="first-name" placeholder="Name" required="required">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="email" name="email" class="form-control" id="email" placeholder="Email" required="required">
+                            </div>
+                            <div class="form-group col-md-12">
+                                <textarea rows="6" name="message" class="form-control" id="description" placeholder="Your Message" required="required"></textarea>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <div class="actions">
+                                    <input type="submit" value="SUBMIT NOW" name="submit" id="submitButton" class="btn btn-lg btn-contact-bg" title="Submit Your Message!">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
   </section>
 
   <!-- Footer section -->
   <footer class="footer">
-    <!-- footer code here -->
+    <div class="container">
+      <div class="row">
+          <div class="col-sm-12 text-center">
+              <p>&copy;Copyright 2024 Portfolio | All RightReserved.</p>
+              <div class="footer-social-link">
+                  <ul>
+                      <li class="wow fadeInDown" data-wow-delay=".4s"><a href="">facebook</a>
+                      </li>
+                      <li class="wow fadeInDown" data-wow-delay=".6s"><a href="">twitter</a>
+                      </li>
+                      <li class="wow fadeInDown" data-wow-delay=".8s"><a href="">dribbble</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
   </footer>
 
 
