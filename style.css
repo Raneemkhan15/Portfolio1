@@ -210,6 +210,8 @@ a span {
     display: flex;
     justify-content: center;
     padding-top: 5em;
+    /* margin-left: 7em; */
+    /* margin-right: 20rem; */
 }
 
  .about-image {
@@ -219,8 +221,8 @@ a span {
 
 .about-text {
     padding-top: 80px;
-    margin-left: 2em;
-    /* margin-left: 5em; */
+    margin-left: 4em;
+    /* margin-right: 15rem; */
 }
 
 .about-text h2 {
@@ -237,9 +239,9 @@ a span {
 }
 
 .about-text p {
-    font-weight: 200;
-    /* margin-right: 20em; */
-    padding-right: 12px;
+    font-weight: 100;
+    /* margin-right: 15em; */
+    /* padding-right: 17rem; */
 }
 
 .about-text a {
