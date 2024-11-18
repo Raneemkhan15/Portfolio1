@@ -9,9 +9,9 @@
     letter-spacing: 1px;
 }
 
-html {
+/* html {
     height: 100%;
-}
+} */
 
 section {
     padding: 70px 0px;
@@ -98,7 +98,7 @@ a span {
     color: #ffffff;
     margin-right: 2em;
     margin-top: 0.5em;
-    font-size: 14.7px;
+    font-size: 16px;
 }
 
 .navbar .nav:hover {
@@ -149,17 +149,17 @@ a span {
 }
 
 .intro h2 {
-    font-size: 25.5px;
+    font-size: 25px;
     font-weight: 800;
     color: #f1efef;
+    margin-top: 0.3em;
 }
 
 .intro p {
-    font-size: 1.5em;
-    font-weight: 200;
+    font-size: 23px;
+    font-weight: 100;
     color: #f1efef;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: 0.5% 10em;
 }
 
 .intro .arrow {
@@ -212,15 +212,15 @@ a span {
     padding-top: 5em;
 }
 
- .about-me .me {
+ .about-image {
     margin-left: 10em;
     margin-top: 2em; 
 }
 
 .about-text {
-    padding-top: 90px;
-    margin-left: 2%;
-    margin-right: 20%;
+    padding-top: 80px;
+    margin-left: 2em;
+    /* margin-left: 5em; */
 }
 
 .about-text h2 {
@@ -237,7 +237,9 @@ a span {
 }
 
 .about-text p {
-    font-weight: 300;
+    font-weight: 200;
+    /* margin-right: 20em; */
+    padding-right: 12px;
 }
 
 .about-text a {
