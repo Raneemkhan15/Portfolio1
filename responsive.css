@@ -1,12 +1,36 @@
 @media only screen and (min-width: 992px) and (max-width: 1349px) {
+    .intro p {
+        font-size: 23px;
+        font-weight: 100;
+        color: #f1efef;
+        margin: 0.5% 5em;
+    }
+    .about-text p {
+        font-weight: 100;
+        padding-right: 7rem;
+    }
+    .single {
+        background-color: #fff;
+        padding: 20px 10px;
+        margin-bottom: 20px;
+        margin-top: 1%;
+    }
+    #product-list {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 1%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, auto);
+    }
 }
 
 
-@media only screen and (min-width: 767px) and (max-width: 991px) {
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
    
 }
 
-@media (max-width:877px) {
+@media (max-width:905px) {
     #hideOnMobile {
         display: none;
     }
