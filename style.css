@@ -140,9 +140,6 @@ a span {
     align-items: center;
     text-align: center;
     margin-top: 15em;
-    /* padding-top:15%;
-    padding-left: 3rem;
-    padding-right: 3rem; */
 }
 
 .intro .responsive {
@@ -162,7 +159,7 @@ a span {
     font-size: 23px;
     font-weight: 100;
     color: #f1efef;
-    margin: 0.5% 12em;
+    margin: 0.5% 11em;
 }
 
 .intro .arrow {
@@ -216,6 +213,11 @@ a span {
     padding-top: 5%;
     padding-left: 8rem;
 }
+.about-image img{
+   width: 400px;
+   height: 400px;
+   margin-left: 5em;
+}
 .about-text{
     margin-left: 2%;
 }
@@ -233,7 +235,7 @@ a span {
 }
 .about-text p {
     font-weight: 100;
-    padding-right: 20rem;
+    padding-right: 17rem;
 }
 
 .about-text a {
@@ -360,6 +362,7 @@ a span {
     padding: 40px 30px;
     margin-bottom: 20px;
     margin-top: 1%;
+    width: 100%;
 }
 
 .single h2 {
@@ -429,8 +432,8 @@ a span {
 }
 
 #product-list {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 13%;
+    margin-right: 13%;
     margin-top: 1%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -439,13 +442,12 @@ a span {
 
 .image {
     position: relative;
-    width: 420px;
+    width: 100%;
 }
 
 .image__img {
-    display: block;
-    width: 85%;
     height: 90%;
+    width: 85%;
 }
 
 .image__overlay {
@@ -456,7 +458,6 @@ a span {
     height: 90%;
     background: rgba(0, 0, 0, 0.6);
     color: #ffffff;
-    font-family: 'Quicksand', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -486,9 +487,9 @@ a span {
     transform: translateY(0);
 }
 
-.image__description {
-    font-size: 1.2em;
-    /* margin-top: 0.25em; */
+.description {
+    font-size: 1.2px;
+  
 }
 
 .testimonial {
