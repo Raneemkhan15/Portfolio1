@@ -1,74 +1,5 @@
-/* @media (max-width: 1349px) {
-    .intro p {
-        font-size: 23px;
-        font-weight: 100;
-        color: #f1efef;
-        margin: 0.5% 5em;
-    }
-    .about-text p {
-        font-weight: 100;
-        padding-right: 1rem;
-    }
-    .single {
-        background-color: #fff;
-        padding: 20px 10px;
-        margin-bottom: 20px;
-        margin-top: 1%;
-    }
-    #product-list {
-        margin-left: 7%;
-        margin-right: 5%;
-        margin-top: 1%;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, auto);
-    }
-
-} */
 
 
-/* @media (max-width: 1125px) {
-    .my-intro .intro {
-        margin-top: 17em;
-    }
-    .intro p {
-        font-size: 20px;
-        font-weight: 100;
-        color: #f1efef;
-    }
-    .about-me{
-        padding-left: 3rem;
-    }
-    .about-image img{
-        width:350px;
-        height: 350px;
-     }
-     .about-text{
-        margin-top: 2%;
-    }
-    .about-text h3 {
-        font-size: 17px;
-        margin-bottom: 30px;
-        margin-top: 0;
-    }
-    .about-text p {
-        font-weight: 100;
-        
-    }
-    .single {
-        background-color: #fff;
-        padding: 10px 10px;
-        margin-bottom: 20px;
-        margin-top: 1%;
-    }
-    .single h3 {
-        margin-top: 0;
-        font-size: 12px;
-        font-weight: 400;
-        color: #333;
-        margin-bottom: 15px;
-    }
-} */
 
 @media (max-width:905px) {
     #hideOnMobile {
@@ -78,27 +9,42 @@
     .menu-btn {
         display: block;
     }
-
+    .my-intro .intro {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 15em;
+    }
+    .intro p {
+        font-size: 1.1rem;
+        font-weight: 200;
+        color: #f1efef;
+        margin: 0.5% ;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-image img{
+        width: 250px;
+        height: 250px;
+     }
+     .about-text h2 {
+        font-size: 22px;
+        font-weight: 900;
+    }
+    .about-text h3 {
+        font-size: 18px;
+    }
+    .about-text p {
+        font-size: 13px;
+        font-weight: 100;
+    }
+    
    
 
 
-    /* .container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1, auto);
-        gap: 1rem;
-        margin-top: 3em;
-    }
-
-    .col-md-2 {
-        text-align: center;
-        padding: 6em;
-        margin-left: 15em;
-    } */
-
 }
 
-@media (max-width:400px) {
+@media (max-width:480px) {
     #sidebar {
         width: 100%;
     }

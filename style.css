@@ -14,7 +14,7 @@ html {
 }
 
 section {
-    padding: 70px 80px;
+    padding: 50px 50px;
 }
 
 .loader {
@@ -136,13 +136,15 @@ a span {
 .my-intro {
     min-height: 100vh;
     overflow-x: hidden;
+    
 }
 
 .my-intro .intro {
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 15em;
+    margin-top: 12em;
 }
 
 .intro .responsive {
@@ -159,10 +161,10 @@ a span {
 }
 
 .intro p {
-    font-size: 23px;
+    font-size: 1.1rem;
     font-weight: 100;
     color: #f1efef;
-    margin: 0.5% 8em;
+    margin: 0.5% 8.9em;
     align-items: center;
     justify-content: center;
 }
@@ -171,7 +173,7 @@ a span {
     position: absolute;
     top: 45%;
     left: 50%;
-    margin-top: 22em;
+    margin-top: 19em;
     transform: translate(-50%, -50%);
 }
 
@@ -215,18 +217,19 @@ a span {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding-top: 5%;
-    padding-left: 8rem; */
     overflow-x: hidden;
 }
 .about-image img{
-   width: 400px;
-   height: 400px;
-   margin-left: 5em;
+   width: 350px;
+   height: 350px;
+   /* margin-left: 5em; */
 }
 .about-text{
-    margin-left: 2%;
-}
+    margin-left: 3%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}                        
 .about-text h2 {
     font-size: 24px;
     margin-bottom: 15px;
@@ -240,10 +243,11 @@ a span {
     margin-top: 0;
 }
 .about-text p {
+    font-size: 17px;
     font-weight: 100;
     /* padding-right: 10rem; */
     align-items: center;
-    flex-direction: column;
+  
 }
 
 .about-text a {
@@ -362,20 +366,14 @@ a span {
     overflow-x: hidden;
 }
 
-.box-container {
-    padding-left: 15%;
-}
-
 .single {
     background-color: #fff;
-    padding: 40px 30px;
+    padding: 20px 20px;
     margin-bottom: 20px;
-    margin-top: 1%;
-    width: 100%;
 }
 
 .single h2 {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
     margin-bottom: 10px;
     color: #333;
@@ -384,7 +382,7 @@ a span {
 
 .single h3 {
     margin-top: 0;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 300;
     color: #333;
     margin-bottom: 15px;
@@ -401,7 +399,8 @@ a span {
 }
 
 .single p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    margin-bottom: 0;
 }
 
 .recent-work {
@@ -441,32 +440,36 @@ a span {
 }
 
 #product-list {
-    margin-left: 13%;
-    margin-right: 13%;
-    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 6fr);
     grid-template-rows: repeat(3, auto);
 }
 
 .image {
     position: relative;
     width: 100%;
+    /* margin-left: 13%; */
+    /* margin-right: 3%; */
+    /* background-color: aqua; */
 }
 
 .image__img {
-    height: 90%;
-    width: 85%;
+    /* margin-left: 6%; */
+    height: 95%;
+    width: 95%;
 }
 
 .image__overlay {
     position: absolute;
     top: 0;
     left: 0;
-    width: 85%;
-    height: 90%;
-    background: rgba(0, 0, 0, 0.6);
-    color: #ffffff;
+    width: 95%;
+    height: 95%;
+    background: rgba(154, 153, 153, 0.6);
+    color: #000000;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -496,9 +499,13 @@ a span {
     transform: translateY(0);
 }
 
-.description {
-    font-size: 1.2px;
-  
+.description h5{
+    font-size: 20px;
+   font-weight: 600;
+}
+.description h6{
+    font-size: 0.9rem;
+   font-weight: 400;
 }
 
 .testimonial {
@@ -668,7 +675,6 @@ a span {
 
 .contact-me input:hover {
     background: transparent;
-    border: 1px solid #FFCB2F;
     color: #000;
 
 }
