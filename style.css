@@ -10,11 +10,11 @@
 }
 
 html {
-    height: 100%;
+    height: 100%; 
 }
 
 section {
-    padding: 70px 0px;
+    padding: 70px 80px;
 }
 
 .loader {
@@ -63,6 +63,7 @@ section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
                   url("assets/assets/bg.jpg");
     background-size: cover;
+    overflow: hidden;
 }
 
 .header {
@@ -77,6 +78,7 @@ section {
     justify-content: space-between;
     padding: 0.5rem 9%;
     display: none;
+    overflow-x: hidden;
 }
 
 .logo {
@@ -133,6 +135,7 @@ a span {
 
 .my-intro {
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 .my-intro .intro {
@@ -159,7 +162,9 @@ a span {
     font-size: 23px;
     font-weight: 100;
     color: #f1efef;
-    margin: 0.5% 11em;
+    margin: 0.5% 8em;
+    align-items: center;
+    justify-content: center;
 }
 
 .intro .arrow {
@@ -210,8 +215,9 @@ a span {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 5%;
-    padding-left: 8rem;
+    /* padding-top: 5%;
+    padding-left: 8rem; */
+    overflow-x: hidden;
 }
 .about-image img{
    width: 400px;
@@ -235,7 +241,9 @@ a span {
 }
 .about-text p {
     font-weight: 100;
-    padding-right: 17rem;
+    /* padding-right: 10rem; */
+    align-items: center;
+    flex-direction: column;
 }
 
 .about-text a {
@@ -317,6 +325,7 @@ a span {
     background-size: cover;
     z-index: 1;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 .project::after {
@@ -500,6 +509,7 @@ a span {
     background-size: cover;
     background-attachment: fixed;
     z-index: 1;
+    overflow-x: hidden;
 }
 
 .testimonial:after {
@@ -594,7 +604,7 @@ a span {
 }
 
 .contact-me {
-    margin: 3%  15%;
+    margin: 3%  15%; 
 }
 
 .contact-me .form-control {
