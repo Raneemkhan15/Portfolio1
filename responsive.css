@@ -60,10 +60,6 @@
     }
 
     .my-intro .intro {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
         margin-top: 15em;
     }
 
@@ -72,8 +68,8 @@
     }
 
     .intro p {
-        font-size: 1.1rem;
-        margin: 0.5% 5em;
+        font-size: 1.2rem;
+        margin: 0.5% 3em;
     }
 
     .about-image img {
@@ -90,7 +86,11 @@
     }
 
     .about-text h3 {
-        font-size: 18px;
+        font-size: 17px;
+    }
+
+    .about-text p {
+        padding-right: 2rem;
     }
 
     .my-services .container {
@@ -98,7 +98,8 @@
     }
 
     .col-md-2 {
-        padding: 4em;
+        padding: 5%;
+        margin-right: 70px;
     }
 
     .col-md-2 h5 {
@@ -109,8 +110,17 @@
         padding: 80px;
     }
 
+    #product-list {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
     .testimonial {
         padding: 80px 0;
+    }
+    .description h5{
+        font-size: 1rem;
+       font-weight: 500;
     }
 
     .carousel-item p {
@@ -120,25 +130,29 @@
 }
 
 @media (max-width: 992px) {
-  
-    /* .header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    } */
-
     .navbar .nav {
-        margin-right: 2em;
+        margin-right: 1.5em;
         font-size: 15px;
     }
 
     .my-intro .intro {
         margin-top: 15em;
     }
+    .intro p {
+        font-size: 1.2rem;
+        margin: 0.5% 2em;
+    }
 
+    .about-image img{
+        width: 250px;
+        height: 250px;
+        margin-bottom: 3em;
+    }
     .about-text {
-        margin-left: 2%;
-        text-align: left;
+        margin-top: 2em;
+    }
+    .about-text p{
+        padding-right: 0%;
     }
 
     .about-text a {
@@ -150,43 +164,57 @@
     }
 
     .col-md-2 {
-        padding: 3em;
+        padding: 5%;
+        margin-right: 10px;
+        margin-left: 2em;
     }
 
     .single {
         padding: 15px;
     }
 
-  .contact-form{
-    width: 95%;
-  }
+    #product-list {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    .description h5{
+        font-size: 1rem;
+       font-weight: 500;
+    }
+
+    .single-contact-details {
+        margin: 10%  5px 10%; 
+    }
+    
     .contact-me {
         margin: 3% 5%;
     }
 }
 
-@media (max-width: 790px) {
+@media (max-width: 800px) {
     #hideOnMobile {
         display: none;
     }
 
     .menu-btn {
         display: block;
-    }
-    .header {
-        display: block;
+        margin-right: 2em;
     }
 
-    .menu-btn {
+    .header {
         display: block;
     }
 
     #sidebar {
         width: 100%;
     }
+    .header {
+        padding: 0.5rem 1%;
+    }
 
     .my-intro .intro {
-        margin-top: 5em;
+        margin-top: 15em;
     }
 
     .intro h2 {
@@ -194,13 +222,18 @@
     }
 
     .intro p {
-        font-size: 0.9rem;
-        margin: 0.5% 2em;
+        font-size: 1rem;
+        margin: 0.5% 0.6em;
     }
 
     .about-image img {
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 5em;
+    }
+
+    .about-text{
+        margin-left: 1%;
     }
 
     .about-text h2 {
@@ -208,11 +241,21 @@
     }
 
     .about-text h3 {
-        font-size: 16px;
+        font-size: 14px;
     }
 
+    .about-text p{
+        padding-right: 0;
+    }
     .my-services .container {
-        grid-template-columns: 1fr; /* Stack services vertically */
+        grid-template-columns: 1fr; 
+    }
+    .single h3 {
+        margin-top: 0;
+        font-size: 11px;
+        font-weight: 300;
+        color: #333;
+        margin-bottom: 15px;
     }
 
     .project {
@@ -220,21 +263,31 @@
     }
 
     .col-md-2 {
-        padding: 2em;
+        text-align: center;
+        padding: 5%;
+    }
+    #product-list {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .description h5{
+        font-size: 14px;
+       font-weight: 600;
     }
 
     .carousel-item p {
         margin-left: 5%;
         margin-right: 5%;
     }
-    
-    .detail{
-        
+
+    .single-contact-details {
+        margin: 10%  1px 1px; 
     }
-      .single1{
-        margin-left: 2em;
-        /* margin-right: 4em; */
-      }
+    
+    .contact-me {
+        margin: 3% 5%;
+    }
+    
 }
 
 @media (max-width: 576px) {
@@ -247,6 +300,16 @@
         margin: 0.5% 1em;
     }
 
+    .about-me{
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    .about-image img{
+        width: 390px;
+        height: 390px;
+    }
+
     .about-text h2 {
         font-size: 18px;
     }
@@ -257,6 +320,20 @@
 
     .box {
         padding: 30px 5px;
+    }
+
+    #product-list {
+        margin-left: 4%;
+        margin-right: 0%;
+        margin-top: 3%;
+        display: grid;
+        grid-template-columns: repeat(1, 6fr);
+        grid-template-rows: repeat(1, auto);
+    }
+
+    .description h5{
+        font-size: 20px;
+       font-weight: 600;
     }
 
     .box h5 {
